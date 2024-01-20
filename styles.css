@@ -57,6 +57,14 @@ bottom: -50px;
 z-index: -1;
 }
 
+#fullscreenButton {
+    background: #30197d;
+    border: none;
+}
+
+.fullscreen {
+    background: #30197d;
+}
 .clock span {
     font-size: 80px;
     width: 110px;
@@ -106,7 +114,5 @@ z-index: -1;
         justify-content: center;
         backdrop-filter: blur(40px);
     }
-    .hidden {
-        display: none;
-    }
+    
 }
